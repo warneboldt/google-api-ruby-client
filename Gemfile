@@ -31,7 +31,6 @@ group :examples do
 end
 
 group :test, :development do
-  gem 'json', '~> 1.7.7'
   gem 'rake', '>= 0.9.0'
   gem 'rspec', '>= 2.11.0'
   gem 'rcov', '>= 0.9.9', :platform => :mri_18
